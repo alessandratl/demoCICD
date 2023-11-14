@@ -6,5 +6,8 @@ jobs:
   tareas:
    runs-on: ubuntu-latest
    steps:
-   - name: Mostrat mensaje
-     run: echo "Hola Git"
+    - name: Bajar codigo
+      uses: actions/checkout@v4
+
+    - name: Probar codigo
+      run: python main.py
