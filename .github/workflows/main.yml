@@ -1,0 +1,10 @@
+name: Mi workflow
+
+on: push
+
+jobs:
+  tareas:
+   runs-on: ubuntu-latest
+   steps:
+   - name: Mostrat mensaje
+     run: echo "Hola Git"
