@@ -1,1 +1,1 @@
-prhjjjlkjolkolkñkpoint("Hola mundo")
+print("Hola mundo")
